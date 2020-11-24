@@ -5,7 +5,7 @@ LICENSE = "MIT"
 IMAGE_INSTALL = "packagegroup-core-boot"
 
 #packages
-IMAGE_INSTALL += "boost zeromq example cpptest zmqserver cmaketest bash dropbear ifupdown kbd-keymaps keyboard"
+IMAGE_INSTALL += "tempSensor boost zeromq example cpptest zmqserver cmaketest bash dropbear ifupdown kbd-keymaps keyboard"
 
 inherit core-image
 

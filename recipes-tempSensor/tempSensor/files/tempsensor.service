@@ -1,0 +1,8 @@
+[Unit]
+Description=Mqtt service to post/log temperature
+[Service]
+ExecStart=tempsensor /etc/tempsensor.ini
+Restart=on-faliure
+RestartSec=2s
+[Install]
+WantedBy=multi-user.target
